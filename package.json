@@ -1,0 +1,38 @@
+{
+  "name": "integrador-es3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon ./backend/src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagoigfraga/typescript-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagoigfraga/typescript-dev/issues"
+  },
+  "homepage": "https://github.com/thiagoigfraga/typescript-dev#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "moongose": "^1.0.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.18"
+  }
+}
